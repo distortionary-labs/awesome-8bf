@@ -49,9 +49,10 @@ Filters whose creators' sites are gone survive only in the Internet Archive. The
 - [PSFilterPdn](https://github.com/0xC0000054/PSFilterPdn) - Runs 8bf filters in Paint.NET.
 - [8bf-host](https://github.com/distortionary-labs/8bf-host) - Runs filters with no editor, from the command line or as an HTTP server, on Linux, Windows and macOS. Windows filters run under Wine on Linux.
 - [krita-8bfhost-bridge](https://github.com/distortionary-labs/krita-8bfhost-bridge) - Runs 8bf filters in Krita, through 8bf-host.
+- [gimp-8bfhost-bridge](https://github.com/distortionary-labs/gimp-8bfhost-bridge) - Runs 8bf filters in GIMP 3, through 8bf-host.
 - [comfy-8bfhost-bridge-nodes](https://github.com/distortionary-labs/comfy-8bfhost-bridge-nodes) - Runs 8bf filters as ComfyUI nodes, through 8bf-host.
 
-GIMP 2.10 could load 8bf filters through the PSPI plug-in. GIMP 3 can't.
+GIMP 2.10 could load 8bf filters through the PSPI plug-in. GIMP 3 has no built-in support; use gimp-8bfhost-bridge.
 
 ## Contributing
 
